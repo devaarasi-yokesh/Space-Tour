@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dig Space</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Metamorphous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   
+    <section id="home_container">
+        <div id="nav_container">
+            <div id="logo">
+                <img src="Images/Rocket.svg" alt="" width="50px" height="60px" id="logo_img">
+                <div id="logo_name">
+                    <p>SPACE TOUR</p>
+                    <span id="line"></span>
+                </div>
+            </div>
+
+            <div id="nav_bar">
+                <nav>
+                    <ul>
+                        <li><a href="#home_container"><span id="home" class="nav_elems">Home</span></a></li>
+                        <li><a href="solar_system_container"><span id="solar" class="nav_elems">Solar System</span></a></li>
+                        <li><a href=""><span id="moons" class="nav_elems">Moon</span></a></li>
+                        <li><a href=""><span id="satelite" class="nav_elems">Satelite</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <video src="Videos/Moon.mp4" alt="" id="moon" autoplay="true" muted></video>
+        <!--
+        <img src="Images/Sun.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Mercury.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Venus.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/mars.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Mars.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Jupiter.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Saturn.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Uranus.jpeg" alt="" width="400px" height="400px">
+        <img src="Images/Neptune.jpeg" alt="" width="400px" height="400px">
+        -->
+        <div id="moon_title"  data-aos="fade-right" data-aos-duration="1000">Moon</div>
+        <div id="moon_1" class="moon_fact"  data-aos="fade-left" data-aos-duration="1000">
+        <p>Average distance from Earth - 384,400 km</p>
+        </div>
+
+        <div id="moon_2" class="moon_fact"  data-aos="fade-left" data-aos-duration="1000">
+            <p>Temperature : -173°C to 127°C <br>
+            Day length: 27 days
+             <br>Year length: 27 days</p>
+        </div>
+
+    </section>
+    
+
+    <section id="solar_system_container">
+            <h1><span id="solar_heading">Solar System</span></h1>
+            <div class="solar_planets">
+
+                <div id="sun" class="planets">
+                    <p class="sun_title title">Sun</p>
+                    <img src="Images/Sun.png" alt="" id="sun_img" class="images" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="info" data-aos="flip-left" data-aos-duration="1000">
+                        <p>
+                            Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                            Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                            Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                            Number of planets&nbsp; :  &nbsp;  8 <br>
+                            Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                            Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                            The Sun is the only star in our solar system
+                        </p>
+                    </div>
+                </div>
+
+                <div id="mercury" class="planets">
+                    <p class="mercury_title title">Mercury</p>
+                    <img src="Images/Mercury.png" alt="" id="mercury_img" class="images" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="mercury_info" data-aos="flip-right" data-aos-duration="1000">
+                        <p>
+                             Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                            Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                            Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                            Number of planets&nbsp; :  &nbsp;  8 <br>
+                            Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                            Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                            The Sun is the only star in our solar system
+                        </p>
+                    </div>
+                </div>
+
+                <div id="venus" class="planets"></div>
+                    <p class="venus_title title">Venus</p>
+                    <img src="Images/Venus.png" alt="" id="venus_img" class="images" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="venus_info" data-aos="flip-left" data-aos-duration="1000">
+                        <p>
+                             Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                            Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                            Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                            Number of planets&nbsp; :  &nbsp;  8 <br>
+                            Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                            Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                            The Sun is the only star in our solar system
+                        </p>
+                    </div>
+                </div>
+
+                <div id="earth" class="planets"></div>
+                    <p class="earth_title title">Earth</p>
+                    <img src="Images/Earth.png" alt="" id="earth_img" class="images"  data-aos="fade-left" data-aos-duration="1500">
+                    <div class="earth_info" data-aos="flip-right" data-aos-duration="1000">
+                        <p>
+                             Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                            Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                            Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                            Number of planets&nbsp; :  &nbsp;  8 <br>
+                            Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                            Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                            The Sun is the only star in our solar system
+                        </p>
+                    </div>
+                </div>
+
+                <div id="mars" class="planets"></div>
+                <p class="mars_title title">Mars</p>
+                <img src="Images/Mars.png" alt="" id="mars_img" class="images" data-aos="fade-right" data-aos-duration="1500">
+                <div class="mars_info" data-aos="flip-left" data-aos-duration="1000">
+                    <p>
+                         Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                        Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                        Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                        Number of planets&nbsp; :  &nbsp;  8 <br>
+                        Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                        Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                        The Sun is the only star in our solar system
+                    </p>
+                </div>
+
+
+                <div id="jupiter" class="planets"></div>
+                <p class="jupiter_title title">Jupiter</p>
+                <img src="Images/Jupiter.png" alt="" id="jupiter_img" class="images"  data-aos="fade-left" data-aos-duration="1500">
+                <div class="jupiter_info" data-aos="flip-right" data-aos-duration="1000">
+                    <p>
+                         Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                        Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                        Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                        Number of planets&nbsp; :  &nbsp;  8 <br>
+                        Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                        Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                        The Sun is the only star in our solar system
+                    </p>
+                </div>
+
+
+                <div id="saturn" class="planets"></div>
+                <p class="saturn_title title">Saturn</p>
+                <img src="Images/Saturn.png" alt="" id="saturn_img" class="images"  data-aos="fade-right" data-aos-duration="1500">
+                <div class="saturn_info" data-aos="flip-left" data-aos-duration="1000">
+                    <p>
+                         Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                        Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                        Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                        Number of planets&nbsp; :  &nbsp;  8 <br>
+                        Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                        Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                        The Sun is the only star in our solar system
+                    </p>
+                </div>
+
+
+                <div id="uranus" class="planets"></div>
+                <p class="uranus_title title">Uranus</p>
+                <img src="Images/Uranus.png" alt="" id="uranus_img" class="images"  data-aos="fade-left" data-aos-duration="1500">
+                <div class="uranus_info" data-aos="flip-right" data-aos-duration="1000">
+                    <p>
+                         Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                        Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                        Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                        Number of planets&nbsp; :  &nbsp;  8 <br>
+                        Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                        Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                        The Sun is the only star in our solar system
+                    </p>
+                </div>
+
+
+                <div id="neptune" class="planets"></div>
+                <p class="neptune_title title">Neptune</p>
+                <img src="Images/Neptune.png" alt="" id="neptune_img" class="images"  data-aos="fade-right" data-aos-duration="1500">
+                <div class="neptune_info" data-aos="flip-left" data-aos-duration="1000">
+                    <p>
+                         Star type &nbsp; : &nbsp; Yellow dwarf <br>
+                        Temperature &nbsp; :  &nbsp; 5,973°C to 15,000,000°C <br>
+                        Average time taken to rotate on axis &nbsp; :  &nbsp;  27 Earth days <br>
+                        Number of planets&nbsp; :  &nbsp;  8 <br>
+                        Age &nbsp; :  &nbsp; 4.603 billion years <br>
+                        Distance to Earth&nbsp; :  &nbsp; 149.6 million km <br>
+                        The Sun is the only star in our solar system
+                    </p>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
